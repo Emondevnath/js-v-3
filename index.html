@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Variable</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+  </head>
+
+  <body>
+
+    <div class="container text-center">
+      <h2 id="car"></h2>
+
+      <hr>
+
+      <h1 id="cars"></h1>
+
+
+      <hr>
+
+      <h2 class="text-success">click the button to show the result</h2>
+      <button class="btn btn-dark" onclick="datValue()">Result</button>
+      <h3 id="value">Value is -</h3>
+
+      <hr>
+      
+      <h2 class="text-danger">click the button to repeat the text</h2>
+      <button class="btn btn-success" onclick="dataRepeat()">Repeat</button>
+      <h4 id="rep">Repeat</h4>
+
+      <hr>
+
+
+      <h3>Click The Button Open the Result</h3>
+      <button class="btn btn-secondary" onclick="dateManipulated()">Click</button>
+      <h1 id="result">Result is -</h1>
+
+      <hr />
+
+      <h3>Click The Button Open the Result</h3>
+      <button class="btn btn-primary" onclick="dateManiPulate()">Click</button>
+      <h1 id="res">Result is -</h1>
+
+      <hr>
+
+
+      <h1>Light On Off Js click button</h1>
+      <button type="button" onclick="showOff()" class="btn btn-primary">
+        Off
+      </button>
+      <img id="lightImg" src="images/ofbulb.gif" alt="" />
+      <button type="button" onclick="showOn()" class="btn btn-success">
+        ON
+      </button>
+
+      <hr />
+
+      <h1>Light On Off Js mouse seenter button</h1>
+      <button type="button" onmouseenter="seenOff()" class="btn btn-primary">
+        Off
+      </button>
+      <img id="seenImg" src="images/ofbulb.gif" alt="" />
+      <button type="button" onmouseenter="seenOn()" class="btn btn-success">
+        ON
+      </button>
+
+      <hr />
+
+      <h1>Light On Off Js mouse leave button</h1>
+      <button type="button" onmouseleave="leaveOff()" class="btn btn-primary">
+        Off
+      </button>
+      <img id="leaveImg" src="images/ofbulb.gif" alt="" />
+      <button type="button" onmouseleave="leaveOn()" class="btn btn-success">
+        ON
+      </button>
+
+      <hr />
+
+
+      <h1>Light On Off Js mouse over  button</h1>
+      <button type="button" onmouseover="overOff()" class="btn btn-primary">
+        Off
+      </button>
+      <img id="overImg" src="images/ofbulb.gif" alt="" />
+      <button type="button" onmouseover="overOn()" class="btn btn-success">
+        ON
+      </button>
+
+      <hr />
+
+      <h1>Smile and Sad Button</h1>
+      <button type="button" onclick="sadOff()" class="btn btn-secondary">
+        Sad
+      </button>
+      <img id="felImg" src="images/sad.png" alt="" />
+      <button type="button" onclick="smileOn()" class="btn btn-danger">
+        Smile
+      </button>
+
+      <hr />
+
+
+      <h1>ruby and diamond Button</h1>
+      <button type="button" onclick="felOff()" class="btn btn-outline-dark">
+        Ruby
+      </button>
+      <img id="drImg" src="images/ruby.png" alt="" />
+      <button type="button" onclick="felOn()" class="btn btn-outline-success">
+        Diamond
+      </button>
+
+      <hr />
+
+      <h1>Font size control javascript</h1>
+      <button type="button" class="btn btn-success" onclick="showFont()">
+        Increase The Font Size
+      </button>
+      <p id="fSize">Hello Javascript</p>
+
+      <hr />
+
+      <h1>Text color control javascript</h1>
+      <button type="button" class="btn btn-dark" onclick="showColor()">
+        Chance The Text Color
+      </button>
+      <h1 id="fColor">Hello World</h1>
+
+      <hr />
+
+      <h3>Button the click open the Date</h3>
+      <button class="btn btn-danger" onclick="showDate()">Open Date</button>
+      <h2 id="Sdate">BD Date</h2>
+
+      <hr />
+
+      <h2>Click the Button content show and hidden</h2>
+      <button class="btn btn-danger" onclick="showCon()">Show</button>
+      <button class="btn btn-success" onclick="hideCon()">Hide</button>
+      <h1 id="dtext">Hello Javascript</h1>
+
+      <hr />
+
+      <h2>Click the button to show the result (5 + 10)</h2>
+      <button class="btn btn-dark" onclick="ShowResult()">Result</button>
+      <h3 id="result">value is</h3>
+
+      <hr />
+
+      <p id="demotext"></p>
+
+      <hr />
+
+      <h1>Chance Text</h1>
+      <button class="btn btn-danger" onclick="showChance()">chance Text</button>
+      <h2 id="tchance">Hello Bangladesh</h2>
+
+      <hr />
+
+      <h1 id="number"></h1>
+      <script>
+        document.getElementById("number").innerHTML = 5 + 6;
+      </script>
+
+      <hr />
+
+      <script>
+        window.alert(5 + 6);
+      </script>
+
+      <script>
+        console.log(5 + 6);
+      </script>
+
+      <h1 id="demo1"></h1>
+
+      <hr />
+
+      <p>JavaScript code blocks are written between { and }</p>
+      <button class="btn btn-primary" type="button" onclick="myFunction()">
+        Click Me!
+      </button>
+      <p id="demo3"></p>
+      <p id="demo2"></p>
+
+      <hr />
+
+      <p>Expressions compute to values.</p>
+
+      <h2 id="demo"></h2>
+
+      <script>
+        document.getElementById("demo").innerHTML = 5 * 10;
+      </script>
+
+      <hr>
+
+    </div>
+
+    <!-- script link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
